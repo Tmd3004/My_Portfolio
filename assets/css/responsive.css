@@ -87,7 +87,6 @@
 
     .skills__container,
     .qualification__container,
-    .services__container,
     .contact__container {
         justify-content: center;
         grid-template-columns: repeat(2, max-content);
@@ -222,7 +221,7 @@
 
     .nav__menu-list {
         display: flex;
-        column-gap: 3rem;
+        column-gap: 2.5rem;
     }
 
     .nav__menu-link {
@@ -253,7 +252,6 @@
 
     .skills__container,
     .qualification__container,
-    .services__container,
     .contact__container {
         justify-content: center;
         grid-template-columns: repeat(2, max-content);

@@ -316,15 +316,17 @@ body.dark-theme {
   color: var(--text-color);
 }
 
-.home-cv:hover {
-  opacity: 0.9;
-}
 
 .home-cv-btn {
   padding: 6px;
   background-color: var(--text-color);
   border-radius: 16px;
+  border-color: var(--text-color-light);
   outline: none;
+}
+
+.home-cv-btn:hover {
+  background-color: var(--text-color-light);
 }
 
 .link-cv {
@@ -508,59 +510,6 @@ body.dark-theme {
   bottom: 70px;
   transform: rotate(15deg);
   opacity: 0.1;
-}
-
-/*=============== SERVICES ===============*/
-.services__container {
-  row-gap: 2.5rem;
-  justify-content: center;
-}
-
-.services__card {
-  position: relative;
-  width: 228px;
-  height: 322px;
-  background: var(--container-color);
-  text-align: center;
-  padding: 3.5rem 1rem;
-  border-radius: 7.25rem;
-  transition: background-color 0.4s;
-}
-
-.services__card > i {
-  display: block;
-  font-size: 2rem;
-  color: var(--title-color);
-  margin-bottom: 0.75rem;
-  transition: transform 0.8s;
-}
-
-.services__title {
-  font-size: var(--h2-font-size);
-  font-weight: var(--font-semi-bold);
-  margin-bottom: 1.5rem;
-}
-
-.services__border {
-  position: absolute;
-  width: 248px;
-  height: 342px;
-  border: 1px solid var(--text-color-light);
-  border-radius: 7.75rem;
-  inset: 0;
-  left: -10px;
-  margin: auto;
-  z-index: -1;
-  transition: opacity 0.6;
-  opacity: 0;
-}
-
-.services__card:hover > i {
-  transform:rotateY(360deg) ;
-}
-
-.services__card:hover .services__border {
-  opacity: 1;
 }
 
 /*=============== PROJECTS ===============*/
