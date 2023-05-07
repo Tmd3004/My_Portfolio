@@ -251,19 +251,20 @@
     }
 
     .skills__container,
-    .qualification__container,
     .contact__container {
         justify-content: center;
         grid-template-columns: repeat(2, max-content);
     }
 
+    .qualification__container {
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 24rem);
+    }
+
     .skills__container,
     .services__container {
         column-gap: 10rem;
-    }
-
-    .qualification__container {
-        column-gap: 8rem;
     }
 
     .projects__container {
